@@ -1,0 +1,313 @@
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- Title -->
+    <mxCell id="p5_title" value="Page 5: Extras &amp; Payments — DriveNow ERD (Chen Notation) — Name: عبدالرحمن عزت فتوح — Group 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+      <mxGeometry x="400" y="20" width="1600" height="40" as="geometry" />
+    </mxCell>
+
+    <!-- ==================== ENTITIES ==================== -->
+
+    <!-- RENTAL (dashed) -->
+    <mxCell id="p5_rental" value="RENTAL" style="shape=mxgraph.er.entity;whiteSpace=wrap;html=1;fontSize=14;fontStyle=3;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+      <mxGeometry x="930" y="670" width="140" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- EXTRA -->
+    <mxCell id="p5_extra" value="EXTRA" style="shape=mxgraph.er.entity;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+      <mxGeometry x="230" y="170" width="140" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- EXTRA Attributes -->
+    <mxCell id="p5_extra_code" value="ExtraCode" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=4;" vertex="1" parent="1">
+      <mxGeometry x="80" y="90" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_extra_code_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_extra" target="p5_extra_code" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="p5_extra_name" value="Name" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="240" y="90" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_extra_name_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_extra" target="p5_extra_name" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="p5_extra_daily" value="DailyCharge" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="400" y="90" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_extra_daily_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_extra" target="p5_extra_daily" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- INSURANCE_PACKAGE -->
+    <mxCell id="p5_insurance" value="INSURANCE_PACKAGE" style="shape=mxgraph.er.entity;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+      <mxGeometry x="1620" y="170" width="170" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- INSURANCE_PACKAGE Attributes -->
+    <mxCell id="p5_ins_code" value="PackageCode" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=4;" vertex="1" parent="1">
+      <mxGeometry x="1480" y="80" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_ins_code_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_insurance" target="p5_ins_code" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="p5_ins_name" value="Name" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="1640" y="80" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_ins_name_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_insurance" target="p5_ins_name" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="p5_ins_daily" value="DailyPrice" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="1800" y="80" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_ins_daily_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_insurance" target="p5_ins_daily" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="p5_ins_maxcov" value="MaxCoverage" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="1880" y="170" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_ins_maxcov_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_insurance" target="p5_ins_maxcov" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="p5_ins_deduct" value="Deductible" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="1880" y="240" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_ins_deduct_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_insurance" target="p5_ins_deduct" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- PAYMENT -->
+    <mxCell id="p5_payment" value="PAYMENT" style="shape=mxgraph.er.entity;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+      <mxGeometry x="130" y="670" width="140" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- PAYMENT Attributes -->
+    <mxCell id="p5_pay_id" value="PaymentID" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=4;" vertex="1" parent="1">
+      <mxGeometry x="10" y="560" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_pay_id_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_payment" target="p5_pay_id" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="p5_pay_amount" value="Amount" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="160" y="560" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_pay_amount_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_payment" target="p5_pay_amount" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="p5_pay_datetime" value="PaymentDateTime" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="10" y="760" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_pay_datetime_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_payment" target="p5_pay_datetime" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="p5_pay_type" value="PaymentType" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="160" y="760" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_pay_type_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_payment" target="p5_pay_type" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="p5_pay_method" value="Method" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="10" y="840" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_pay_method_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_payment" target="p5_pay_method" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="p5_pay_txn" value="TransactionRef" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="160" y="840" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_pay_txn_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_payment" target="p5_pay_txn" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- FEEDBACK -->
+    <mxCell id="p5_feedback" value="FEEDBACK" style="shape=mxgraph.er.entity;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+      <mxGeometry x="330" y="1170" width="140" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- FEEDBACK Attributes -->
+    <mxCell id="p5_fb_rating" value="Rating" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="210" y="1280" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_fb_rating_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_feedback" target="p5_fb_rating" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="p5_fb_comment" value="Comment" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="370" y="1280" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_fb_comment_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_feedback" target="p5_fb_comment" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="p5_fb_date" value="SubmissionDate" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="530" y="1280" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_fb_date_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_feedback" target="p5_fb_date" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- TRAFFIC_VIOLATION -->
+    <mxCell id="p5_violation" value="TRAFFIC_VIOLATION" style="shape=mxgraph.er.entity;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+      <mxGeometry x="1530" y="1170" width="170" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- TRAFFIC_VIOLATION Attributes -->
+    <mxCell id="p5_viol_no" value="ViolationNo" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=4;" vertex="1" parent="1">
+      <mxGeometry x="1400" y="1090" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_viol_no_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_violation" target="p5_viol_no" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="p5_viol_datetime" value="ViolationDateTime" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="1600" y="1090" width="130" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_viol_datetime_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_violation" target="p5_viol_datetime" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="p5_viol_loc" value="Location" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="1780" y="1130" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_viol_loc_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_violation" target="p5_viol_loc" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="p5_viol_type" value="Type" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="1780" y="1210" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_viol_type_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_violation" target="p5_viol_type" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="p5_viol_fine" value="FineAmount" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="1480" y="1280" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_viol_fine_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_violation" target="p5_viol_fine" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- ==================== RELATIONSHIPS ==================== -->
+
+    <!-- INCLUDES_EXTRA (M:N between RENTAL and EXTRA) -->
+    <mxCell id="p5_rel_inc_extra" value="INCLUDES_EXTRA" style="shape=mxgraph.er.relationship;whiteSpace=wrap;html=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+      <mxGeometry x="570" y="415" width="150" height="70" as="geometry" />
+    </mxCell>
+    <!-- RENTAL to INCLUDES_EXTRA (partial, M) -->
+    <mxCell id="p5_rel_inc_extra_rental" value="M" style="endArrow=none;html=1;strokeWidth=1;fontSize=12;align=center;" edge="1" source="p5_rental" target="p5_rel_inc_extra" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint as="offset" x="10" y="-15" />
+      </mxGeometry>
+    </mxCell>
+    <!-- EXTRA to INCLUDES_EXTRA (partial, N) -->
+    <mxCell id="p5_rel_inc_extra_extra" value="N" style="endArrow=none;html=1;strokeWidth=1;fontSize=12;align=center;" edge="1" source="p5_extra" target="p5_rel_inc_extra" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint as="offset" x="-10" y="-15" />
+      </mxGeometry>
+    </mxCell>
+
+    <!-- INCLUDES_EXTRA Attributes -->
+    <mxCell id="p5_ie_qty" value="Quantity" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="440" y="340" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_ie_qty_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_rel_inc_extra" target="p5_ie_qty" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="p5_ie_charge" value="ChargeAtRental" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="700" y="340" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_ie_charge_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_rel_inc_extra" target="p5_ie_charge" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- INCLUDES_INSURANCE (M:N between RENTAL and INSURANCE_PACKAGE) -->
+    <mxCell id="p5_rel_inc_ins" value="INCLUDES_INSURANCE" style="shape=mxgraph.er.relationship;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+      <mxGeometry x="1280" y="415" width="160" height="70" as="geometry" />
+    </mxCell>
+    <!-- RENTAL to INCLUDES_INSURANCE (partial, M) -->
+    <mxCell id="p5_rel_inc_ins_rental" value="M" style="endArrow=none;html=1;strokeWidth=1;fontSize=12;align=center;" edge="1" source="p5_rental" target="p5_rel_inc_ins" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint as="offset" x="-10" y="-15" />
+      </mxGeometry>
+    </mxCell>
+    <!-- INSURANCE to INCLUDES_INSURANCE (partial, N) -->
+    <mxCell id="p5_rel_inc_ins_insurance" value="N" style="endArrow=none;html=1;strokeWidth=1;fontSize=12;align=center;" edge="1" source="p5_insurance" target="p5_rel_inc_ins" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint as="offset" x="10" y="-15" />
+      </mxGeometry>
+    </mxCell>
+
+    <!-- INCLUDES_INSURANCE Attribute -->
+    <mxCell id="p5_ii_price" value="PriceCharged" style="shape=mxgraph.er.attribute;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="1300" y="340" width="120" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_ii_price_rel" style="endArrow=none;html=1;strokeWidth=1;" edge="1" source="p5_rel_inc_ins" target="p5_ii_price" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- PAYS (1:N, RENTAL partial to PAYMENT total) -->
+    <mxCell id="p5_rel_pays" value="PAYS" style="shape=mxgraph.er.relationship;whiteSpace=wrap;html=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+      <mxGeometry x="530" y="665" width="130" height="70" as="geometry" />
+    </mxCell>
+    <!-- RENTAL to PAYS (partial, 1) -->
+    <mxCell id="p5_rel_pays_rental" value="1" style="endArrow=none;html=1;strokeWidth=1;fontSize=12;align=center;" edge="1" source="p5_rental" target="p5_rel_pays" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint as="offset" x="0" y="-15" />
+      </mxGeometry>
+    </mxCell>
+    <!-- PAYMENT to PAYS (total, N) -->
+    <mxCell id="p5_rel_pays_payment" value="N" style="endArrow=none;html=1;strokeWidth=3;fontSize=12;align=center;" edge="1" source="p5_payment" target="p5_rel_pays" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint as="offset" x="0" y="-15" />
+      </mxGeometry>
+    </mxCell>
+
+    <!-- GIVES_FEEDBACK (1:1, RENTAL partial to FEEDBACK total) -->
+    <mxCell id="p5_rel_gives_fb" value="GIVES_FEEDBACK" style="shape=mxgraph.er.relationship;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+      <mxGeometry x="620" y="930" width="150" height="70" as="geometry" />
+    </mxCell>
+    <!-- RENTAL to GIVES_FEEDBACK (partial, 1) -->
+    <mxCell id="p5_rel_gfb_rental" value="1" style="endArrow=none;html=1;strokeWidth=1;fontSize=12;align=center;" edge="1" source="p5_rental" target="p5_rel_gives_fb" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint as="offset" x="10" y="-15" />
+      </mxGeometry>
+    </mxCell>
+    <!-- FEEDBACK to GIVES_FEEDBACK (total, 1) -->
+    <mxCell id="p5_rel_gfb_feedback" value="1" style="endArrow=none;html=1;strokeWidth=3;fontSize=12;align=center;" edge="1" source="p5_feedback" target="p5_rel_gives_fb" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint as="offset" x="-10" y="-15" />
+      </mxGeometry>
+    </mxCell>
+
+    <!-- OCCURRED_DURING (1:N, RENTAL partial to VIOLATION total) -->
+    <mxCell id="p5_rel_occurred" value="OCCURRED_DURING" style="shape=mxgraph.er.relationship;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+      <mxGeometry x="1200" y="930" width="160" height="70" as="geometry" />
+    </mxCell>
+    <!-- RENTAL to OCCURRED_DURING (partial, 1) -->
+    <mxCell id="p5_rel_occ_rental" value="1" style="endArrow=none;html=1;strokeWidth=1;fontSize=12;align=center;" edge="1" source="p5_rental" target="p5_rel_occurred" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint as="offset" x="-10" y="-15" />
+      </mxGeometry>
+    </mxCell>
+    <!-- VIOLATION to OCCURRED_DURING (total, N) -->
+    <mxCell id="p5_rel_occ_violation" value="N" style="endArrow=none;html=1;strokeWidth=3;fontSize=12;align=center;" edge="1" source="p5_violation" target="p5_rel_occurred" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint as="offset" x="10" y="-15" />
+      </mxGeometry>
+    </mxCell>
+
+  </root>
+</mxGraphModel>
