@@ -1,0 +1,202 @@
+<mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s6_header" value="Part B: Relational Schema 6 (Maintenance) — DriveNow — Name: عبدالرحمن عزت فتوح — Group 2" style="text;html=1;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;fillColor=#f8f9fa;strokeColor=#b0bec5;strokeWidth=2;rounded=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="25" width="2800" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_rent_m" value="RENTAL.RentalNo" style="shape=rectangle;dashed=1;whiteSpace=wrap;html=1;fontSize=11;fontStyle=2;fillColor=#f8f9fa;strokeColor=#78909c;strokeWidth=1.5;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="150" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_veh_m" value="VEHICLE.VIN" style="shape=rectangle;dashed=1;whiteSpace=wrap;html=1;fontSize=11;fontStyle=2;fillColor=#f8f9fa;strokeColor=#78909c;strokeWidth=1.5;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="210" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_emp_m" value="EMPLOYEE.EmployeeID" style="shape=rectangle;dashed=1;whiteSpace=wrap;html=1;fontSize=11;fontStyle=2;fillColor=#f8f9fa;strokeColor=#78909c;strokeWidth=1.5;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="270" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_mech_m" value="MECHANIC.EmployeeID" style="shape=rectangle;dashed=1;whiteSpace=wrap;html=1;fontSize=11;fontStyle=2;fillColor=#f8f9fa;strokeColor=#78909c;strokeWidth=1.5;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="330" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="damage_report_title" value="&lt;b&gt;DAMAGE_REPORT (Weak)&lt;/b&gt;" style="text;html=1;fontSize=15;fontStyle=1;align=left;verticalAlign=bottom;fontColor=#1565c0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="damage_report_col_RentalNo" value="&lt;div style=&quot;font-size:12px; font-weight:bold;&quot;&gt;&lt;u&gt;RentalNo&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e3f2fd;strokeColor=#1976d2;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="150" width="120" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="damage_report_col_ReportNo" value="&lt;div style=&quot;font-size:12px; font-weight:bold;&quot;&gt;&lt;u&gt;ReportNo&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e3f2fd;strokeColor=#1976d2;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="150" width="105" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="damage_report_col_ReportedBy" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;ReportedBy&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="150" width="115" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="damage_report_col_Description" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;Description&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="150" width="150" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="damage_report_col_Severity" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;Severity&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN CK:Minor|Moderate|Severe&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="150" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="damage_report_col_EstimatedRepairCost" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;EstimatedRepairCost&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN CK:&gt;=0&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="150" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="s6_fk_edge_1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#1565c0;strokeWidth=1.8;fontSize=10;fontStyle=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" source="damage_report_col_RentalNo" target="ref_rent_m" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s6_fk_edge_2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#e65100;strokeWidth=1.8;fontSize=10;fontStyle=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" source="damage_report_col_ReportedBy" target="ref_emp_m" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="damage_photo_title" value="&lt;b&gt;DAMAGE_PHOTO (Weak)&lt;/b&gt;" style="text;html=1;fontSize=15;fontStyle=1;align=left;verticalAlign=bottom;fontColor=#1565c0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="damage_photo_col_RentalNo" value="&lt;div style=&quot;font-size:12px; font-weight:bold;&quot;&gt;&lt;u&gt;RentalNo&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e3f2fd;strokeColor=#1976d2;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="330" width="120" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="damage_photo_col_ReportNo" value="&lt;div style=&quot;font-size:12px; font-weight:bold;&quot;&gt;&lt;u&gt;ReportNo&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e3f2fd;strokeColor=#1976d2;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="330" width="105" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="damage_photo_col_PhotoNo" value="&lt;div style=&quot;font-size:12px; font-weight:bold;&quot;&gt;&lt;u&gt;PhotoNo&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e3f2fd;strokeColor=#1976d2;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="330" width="105" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="damage_photo_col_PhotoURL" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;PhotoURL&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="330" width="150" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="damage_photo_rules" value="&lt;i style=&quot;color:#d32f2f; font-size:11px;&quot;&gt;FK: (RentalNo, ReportNo) -&gt; DAMAGE_REPORT(RentalNo, ReportNo)&lt;/i&gt;" style="text;html=1;fontSize=11;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="100" y="386" width="480" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s6_fk_edge_3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#1565c0;strokeWidth=1.8;fontSize=10;fontStyle=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" source="damage_photo_col_RentalNo" target="damage_report_col_RentalNo" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s6_fk_edge_4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#1565c0;strokeWidth=1.8;fontSize=10;fontStyle=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" source="damage_photo_col_ReportNo" target="damage_report_col_ReportNo" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="job_card_title" value="&lt;b&gt;JOB_CARD&lt;/b&gt;" style="text;html=1;fontSize=15;fontStyle=1;align=left;verticalAlign=bottom;fontColor=#1565c0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="490" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="job_card_col_JobNo" value="&lt;div style=&quot;font-size:12px; font-weight:bold;&quot;&gt;&lt;u&gt;JobNo&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e3f2fd;strokeColor=#1976d2;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="520" width="105" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="job_card_col_VIN" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;VIN&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="520" width="125" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="job_card_col_DamageRentalNo" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;DamageRentalNo&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NULL&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="520" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="job_card_col_DamageReportNo" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;DamageReportNo&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NULL&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="520" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="job_card_col_DateIn" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;DateIn&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="520" width="110" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="job_card_col_DateOut" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;DateOut&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NULL&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="520" width="110" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="job_card_col_WorkType" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;WorkType&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN CK:RoutineService|DamageRepair|Inspection|TireReplacement&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="520" width="260" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="job_card_col_TotalCost" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;TotalCost&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN DF:0 CK:&gt;=0&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="520" width="135" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="job_card_rules" value="&lt;i style=&quot;color:#d32f2f; font-size:11px;&quot;&gt;FK: (DamageRentalNo, DamageReportNo) -&gt; DAMAGE_REPORT(RentalNo, ReportNo) | UQ(DamageRentalNo, DamageReportNo) | CK: DateOut IS NULL OR DateOut &gt;= DateIn&lt;/i&gt;" style="text;html=1;fontSize=11;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="100" y="576" width="1125" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s6_fk_edge_5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#c2185b;strokeWidth=1.8;fontSize=10;fontStyle=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" source="job_card_col_VIN" target="ref_veh_m" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s6_fk_edge_6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#1565c0;strokeWidth=1.8;fontSize=10;fontStyle=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" source="job_card_col_DamageRentalNo" target="damage_report_col_RentalNo" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s6_fk_edge_7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#1565c0;strokeWidth=1.8;fontSize=10;fontStyle=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" source="job_card_col_DamageReportNo" target="damage_report_col_ReportNo" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="part_title" value="&lt;b&gt;PART&lt;/b&gt;" style="text;html=1;fontSize=15;fontStyle=1;align=left;verticalAlign=bottom;fontColor=#1565c0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="680" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="part_col_PartNo" value="&lt;div style=&quot;font-size:12px; font-weight:bold;&quot;&gt;&lt;u&gt;PartNo&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e3f2fd;strokeColor=#1976d2;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="710" width="110" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="part_col_Name" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;Name&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="710" width="130" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="part_col_CurrentUnitCost" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;CurrentUnitCost&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN CK:&gt;0&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="710" width="135" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="part_col_QtyInStock" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;QtyInStock&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN DF:0 CK:&gt;=0&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="710" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="supplier_title" value="&lt;b&gt;SUPPLIER&lt;/b&gt;" style="text;html=1;fontSize=15;fontStyle=1;align=left;verticalAlign=bottom;fontColor=#1565c0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="680" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="supplier_col_SupplierID" value="&lt;div style=&quot;font-size:12px; font-weight:bold;&quot;&gt;&lt;u&gt;SupplierID&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e3f2fd;strokeColor=#1976d2;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="710" width="115" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="supplier_col_Name" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;Name&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="815" y="710" width="130" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="supplier_col_Phone" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;Phone&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="945" y="710" width="115" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="supplier_col_Email" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;Email&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN UQ&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="710" width="130" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="works_on_title" value="&lt;b&gt;WORKS_ON (M:N)&lt;/b&gt;" style="text;html=1;fontSize=15;fontStyle=1;align=left;verticalAlign=bottom;fontColor=#1565c0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="860" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="works_on_col_MechanicID" value="&lt;div style=&quot;font-size:12px; font-weight:bold;&quot;&gt;&lt;u&gt;MechanicID&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e3f2fd;strokeColor=#1976d2;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="890" width="125" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="works_on_col_JobNo" value="&lt;div style=&quot;font-size:12px; font-weight:bold;&quot;&gt;&lt;u&gt;JobNo&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e3f2fd;strokeColor=#1976d2;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="890" width="110" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="works_on_col_HoursSpent" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;HoursSpent&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN CK:&gt;0&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="890" width="130" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="s6_fk_edge_8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7b1fa2;strokeWidth=1.8;fontSize=10;fontStyle=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" source="works_on_col_MechanicID" target="ref_mech_m" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s6_fk_edge_9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#1565c0;strokeWidth=1.8;fontSize=10;fontStyle=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" source="works_on_col_JobNo" target="job_card_col_JobNo" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uses_part_title" value="&lt;b&gt;USES_PART (M:N)&lt;/b&gt;" style="text;html=1;fontSize=15;fontStyle=1;align=left;verticalAlign=bottom;fontColor=#1565c0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="860" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="uses_part_col_JobNo" value="&lt;div style=&quot;font-size:12px; font-weight:bold;&quot;&gt;&lt;u&gt;JobNo&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e3f2fd;strokeColor=#1976d2;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="890" width="110" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="uses_part_col_PartNo" value="&lt;div style=&quot;font-size:12px; font-weight:bold;&quot;&gt;&lt;u&gt;PartNo&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e3f2fd;strokeColor=#1976d2;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="890" width="110" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="uses_part_col_QtyUsed" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;QtyUsed&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN CK:&gt;0&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="890" width="120" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="uses_part_col_UnitCostAtTime" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;UnitCostAtTime&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN CK:&gt;0&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="890" width="135" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="s6_fk_edge_10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#1565c0;strokeWidth=1.8;fontSize=10;fontStyle=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" source="uses_part_col_JobNo" target="job_card_col_JobNo" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s6_fk_edge_11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#e65100;strokeWidth=1.8;fontSize=10;fontStyle=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" source="uses_part_col_PartNo" target="part_col_PartNo" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="supplies_title" value="&lt;b&gt;SUPPLIES (M:N)&lt;/b&gt;" style="text;html=1;fontSize=15;fontStyle=1;align=left;verticalAlign=bottom;fontColor=#1565c0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="860" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="supplies_col_SupplierID" value="&lt;div style=&quot;font-size:12px; font-weight:bold;&quot;&gt;&lt;u&gt;SupplierID&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e3f2fd;strokeColor=#1976d2;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="890" width="115" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="supplies_col_PartNo" value="&lt;div style=&quot;font-size:12px; font-weight:bold;&quot;&gt;&lt;u&gt;PartNo&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e3f2fd;strokeColor=#1976d2;strokeWidth=2;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="890" width="110" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="supplies_col_UnitPrice" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;UnitPrice&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN CK:&gt;0&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1425" y="890" width="125" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="supplies_col_LeadTimeDays" value="&lt;div style=&quot;font-size:12px; font-weight:normal;&quot;&gt;LeadTimeDays&lt;/div&gt;&lt;div style=&quot;font-size:10px; color:#555; margin-top:2px;&quot;&gt;NN CK:&gt;=0&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#b0bec5;strokeWidth=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="890" width="135" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="s6_fk_edge_12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#00838f;strokeWidth=1.8;fontSize=10;fontStyle=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" source="supplies_col_SupplierID" target="supplier_col_SupplierID" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s6_fk_edge_13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#e65100;strokeWidth=1.8;fontSize=10;fontStyle=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" source="supplies_col_PartNo" target="part_col_PartNo" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  

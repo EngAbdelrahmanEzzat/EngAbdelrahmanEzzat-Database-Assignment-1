@@ -15,7 +15,14 @@ pages = [
     (4, "1-ERD-4-Rentals"),
     (5, "1-ERD-5-Extras-Payments"),
     (6, "1-ERD-6-Maintenance"),
-    (7, "1-ERD-7-Loyalty")
+    (7, "1-ERD-7-Loyalty"),
+    (8, "2-Schema-1"),
+    (9, "2-Schema-2"),
+    (10, "2-Schema-3"),
+    (11, "2-Schema-4"),
+    (12, "2-Schema-5"),
+    (13, "2-Schema-6"),
+    (14, "2-Schema-7")
 ]
 
 print("Starting export of all 7 pages with 1-based indexing...")
